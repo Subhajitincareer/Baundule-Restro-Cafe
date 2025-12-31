@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baundule Restro Cafe - Karimpur</title>
+    <meta name="description" content="Baundule Restro Cafe in Karimpur: Adda, Coffee & Comfort Food. Tasty Indian snacks, fast food, and cozy vibes for students and families.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
+    <!-- Note: If FontAwesome kit is not available, we can use SVG or a CDN link. Using a generic CDN for now. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Baundule <span class="logo-subtitle">Restro Cafe</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact" class="nav-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <p class="tagline">Adda, Coffee & Comfort Food in Karimpur</p>
+            <h1>Your Favorite <span class="highlight">Hangout Spot</span></h1>
+            <p class="hero-description">
+                Experience the coziest vibes with delicious Indian snacks, mocktails, and more. 
+                Perfect for students, friends, and families.
+            </p>
+            <div class="rating-badge">
+                <i class="fas fa-star"></i> 4.0 (130+ Google Reviews)
+            </div>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="tel:+911234567890" class="btn btn-secondary">Call Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2 class="section-title">Why Baundule?</h2>
+                <p>
+                    Nestled near the new bus stand in Karimpur, <strong>Baundule Restro Cafe</strong> is the ultimate destination for good vibes and great food. 
+                    Whether you're looking for a chill spot for "adda" with friends or a comfortable place for a family meal, we have it all.
+                </p>
+                <ul class="about-features">
+                    <li><i class="fas fa-snowflake"></i> Fully Air-Conditioned</li>
+                    <li><i class="fas fa-couch"></i> Cozy & Group-Friendly Seating</li>
+                    <li><i class="fas fa-wallet"></i> Pocket-Friendly (₹100–200/person)</li>
+                    <li><i class="fas fa-music"></i> Instagram-Worthy Ambiance</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="gallery-interior.png" alt="Baundule Cafe Interior" style="border-radius: 12px; box-shadow: var(--shadow-md);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Highlights -->
+    <section id="menu" class="section menu">
+        <div class="container">
+            <h2 class="section-title text-center">Our Menu Favorites</h2>
+            <p class="section-subtitle text-center">Delicious choices for every craving</p>
+            
+            <div class="menu-categories">
+                <!-- Category 1: Snacks -->
+                <div class="menu-category">
+                    <h3>Snacks & Fast Food</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Chicken Cheese Sandwich</h4>
+                                <p>Grilled to perfection with loads of cheese.</p>
+                            </div>
+                            <span class="price">₹120</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Crispy French Fries</h4>
+                                <p>Golden fried potato strips with spicy masala.</p>
+                            </div>
+                            <span class="price">₹80</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Paneer Tikka Roll</h4>
+                                <p>Spiced paneer wrapped in flaky paratha.</p>
+                            </div>
+                            <span class="price">₹100</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Chicken Popcorn</h4>
+                                <p>Bite-sized crispy chicken chunks.</p>
+                            </div>
+                            <span class="price">₹130</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2: Chinese -->
+                <div class="menu-category">
+                    <h3>Chinese Delights</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Chilli Chicken (Dry/Gravy)</h4>
+                                <p>Spicy Indo-Chinese classic.</p>
+                            </div>
+                            <span class="price">₹180</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Veg Hakka Noodles</h4>
+                                <p>Stir-fried noodles with fresh veggies.</p>
+                            </div>
+                            <span class="price">₹90</span>
+                        </div>
+                         <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Mixed Fried Rice</h4>
+                                <p>Rice with chicken, egg, and prawns.</p>
+                            </div>
+                            <span class="price">₹160</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3: Momo & Pasta -->
+                <div class="menu-category">
+                    <h3>Momo & Pasta</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Chicken Steam Momo</h4>
+                                <p>Served with spicy chutney and clear soup.</p>
+                            </div>
+                            <span class="price">₹70</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Pan Fried Momo</h4>
+                                <p>Crispy mome tossed in schezwan sauce.</p>
+                            </div>
+                            <span class="price">₹110</span>
+                        </div>
+                         <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>White Sauce Pasta</h4>
+                                <p>Creamy cheesy pasta with herbs.</p>
+                            </div>
+                            <span class="price">₹140</span>
+                        </div>
+                    </div>
+                </div>
+                
+                 <!-- Category 4: Beverages -->
+                <div class="menu-category">
+                    <h3>Beverages</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Cold Coffee</h4>
+                                <p>Classic creamy cold coffee with ice cream.</p>
+                            </div>
+                            <span class="price">₹90</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Blue Lagoon Mocktail</h4>
+                                <p>Refreshing citrusy cooler.</p>
+                            </div>
+                            <span class="price">₹100</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-info">
+                                <h4>Masala Tea</h4>
+                                <p>Hot aromatic tea for evening adda.</p>
+                            </div>
+                            <span class="price">₹40</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="text-center" style="margin-top: 2rem;">
+                 <a href="#" class="btn btn-secondary">Download Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2 class="section-title text-center">Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Using placeholders that will be replaced by generated images later -->
+                <div class="gallery-item item1"></div>
+                <div class="gallery-item item2"></div>
+                <div class="gallery-item item3"></div>
+                <div class="gallery-item item4"></div>
+                <div class="gallery-item item5"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section reviews">
+        <div class="container">
+            <h2 class="section-title text-center">What People Say</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Best place in Karimpur for hanging out with friends! The coffee is amazing and the ambiance is super cozy."</p>
+                    <p class="reviewer">- Anjali R.</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★☆</div>
+                    <p class="review-text">"Loved the momos and the pasta. Very reasonable prices for students. Highly recommended."</p>
+                    <p class="reviewer">- Sayan D.</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Great family restaurant. The AC seating was comfortable and the service was quick."</p>
+                    <p class="reviewer">- Amitava G.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section location">
+        <div class="container location-container">
+            <div class="location-info">
+                <h2 class="section-title">Visit Us</h2>
+                <address>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Baundule Restro Cafe</strong></p>
+                    <p>Near New Bus Stand,</p>
+                    <p>Karimpur, Nadia, West Bengal</p>
+                    <p>PIN: 741152</p>
+                </address>
+                <div class="hours">
+                    <p><strong>Opening Hours:</strong></p>
+                    <p>Everyday: 11:00 AM - 10:00 PM</p>
+                </div>
+                <a href="https://maps.google.com" target="_blank" class="btn btn-primary">Get Directions</a>
+            </div>
+            <div class="map-container">
+                <!-- Placeholder for Google Map Iframe. In production, use real embed link -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14620.0123456789!2d88.62!3d23.97!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDU4JzEyLjAiTiA4OMKwMzcnMTIuMCJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin" 
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container contact-container">
+            <div class="contact-form-wrapper">
+                <h2 class="section-title">Contact Us</h2>
+                <p>Book a table or ask a query!</p>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="Message or Booking Details"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-links">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/911234567890" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <p class="phone-link"><i class="fas fa-phone-alt"></i> +91 12345 67890</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Baundule Restro Cafe. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#location">Location</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
